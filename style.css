@@ -1,0 +1,293 @@
+/* Guitat */
+
+body {
+    margin: 0px;
+}
+
+.guitar_font {
+    color: white;
+    padding: 10px; 
+    font-size: 100px;  
+    font-family: 'Megrim', cursive;
+    }
+
+.marginLeft50 {
+    margin-left: 50px;
+    }
+
+.marginToptImg {
+    margin-top: 15%;
+    }
+    
+
+.guitar_topicMargin {
+    margin-left: 30%;
+    }
+
+.floatLeft {
+    float: left;
+    }
+
+.clearLeft {
+    clear: left;
+    }
+
+.textCenter{
+    text-align: center;
+}
+
+.colorWhite {
+    color: white;
+    }
+
+.paddin15 {
+    padding: 15px;
+    }
+
+.guitar_background1  {
+    background-image: linear-gradient(to right, #0f2027 ,#203a43, #2c5364 );
+    height: 50px;
+    background-repeat: no-repeat;
+    }
+
+.guitar_background2  {
+    display: grid;
+    grid-template-rows: 130px ;
+    grid-template-columns: 850px 180px 180px 180px 180px;
+    grid-gap: 50px;
+    background-image: linear-gradient(to right, #00b4db,#0083b0 );
+    background-repeat: no-repeat;
+    }
+
+.guitar_background3  {
+    display: grid;
+    grid-template-rows: 600px ;
+    grid-template-columns: 150px 700px 700px;
+    height: 700px;
+    grid-gap: 50px;
+    background-image: linear-gradient(to right, #00416a ,#e4e5e6 );
+    background-repeat: no-repeat;
+    }
+.guitar_background4  {
+    background-image: linear-gradient(to right,#1d4350, #a43931 );
+    background-repeat: no-repeat;
+    }
+
+.guitar_topicfont {
+    font-size: 25px; 
+    padding-top: 50px;
+    font-family: 'Mukta', sans-serif;
+    margin-left: 2%;
+    }
+.font1 {
+    font-family: 'Mukta', sans-serif;
+    }
+.fontsize25 {
+    font-size: 25px;
+    }
+.fontsize20 {
+    font-size: 20px;
+    }
+a {
+    text-decoration: none;
+    color: white;
+    } 
+
+a:hover {
+    background-color: rgb(39, 161, 177);
+}
+#marlefrt {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#gradp1 {
+    background-image: linear-gradient( 135.8deg,  rgba(26,26,29,1) 27.1%, rgba(111,34,50,1) 77.5% );
+}
+
+@media (max-width: 1280px) {
+    .guitar_background2  {
+        display: grid;
+        grid-template-rows: 130px ;
+        grid-template-columns: 350px 160px 160px 160px 160px;
+        grid-gap: 40px;
+        background-image: linear-gradient(to right, #00b4db,#0083b0 );
+        background-repeat: no-repeat;
+        }
+    .guitar_background3  {
+        display: grid;
+        grid-template-rows: 600px ;
+        grid-template-columns: 50px 500px 500px;
+        grid-gap: 50px;
+        background-image: linear-gradient(to right, #00416a ,#e4e5e6 );
+        background-repeat: no-repeat; 
+        }
+    }   
+
+@media (max-width: 900px) {
+    .guitar_background2  {
+        display: grid;
+        grid-template-rows: 80px 40px 40px 40px 40px ;
+        grid-template-columns: 750px ;
+        grid-gap: 10px;
+        height: 350px;
+        background-image: linear-gradient(to right, #00b4db,#0083b0 );
+        background-repeat: no-repeat;
+        text-align: center;
+        }
+    .guitar_background3  {
+        display: grid;
+        grid-template-rows: 2px  450px 450px;
+        grid-template-columns: 700px;
+        grid-gap: 40px;
+        background-image: linear-gradient(to right, #00416a ,#e4e5e6 );
+        background-repeat: no-repeat;
+        height: 1100px;
+        }
+    .smallm {
+        margin-left: 80px;
+        }
+    }   
+
+
+/* Introduction Styles */
+
+.intro_background_img {
+    background-image: linear-gradient(to right, #6b6b83, #3b8d99 );
+    }
+
+/* Introduction para head font */
+.ip {
+    background-image: linear-gradient(to right, #1d4350, #a43931  );
+    background-repeat: no-repeat;
+    height: 100px;
+    font-family: 'Akronim', cursive; 
+    padding: 10px;
+    font-size: 80px; 
+    text-align: center;
+    }
+
+/* Introduction para data font */
+.idf {
+    font-family: 'Open Sans Condensed', sans-serif; 
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px; 
+    align-self: auto; 
+    color: white;
+    }
+/* Word Elastic font size and color font */
+.ist {
+    color: #311B92; 
+    font-size: 50;
+    }
+
+ /* Image Styles */
+
+#image {
+    display:grid;
+    grid-template-columns: 500px 500px 500px  ;
+    grid-template-rows: 320px 320px 320px ;
+    grid-gap: 80px; 
+    padding: 80px;                
+    }
+
+#imagefont {
+    font-family: 'Bangers', cursive; 
+    font-size: 80px; 
+    text-align: center; 
+    }
+
+.ifontbg {
+    height: 100px; 
+    background-color: #F44336; 
+    padding: 40px;
+    }
+
+.ibgimg {
+    background-image: linear-gradient(to right, #00416a ,#e4e5e6 );
+    }
+
+.imfont {
+    font-family: 'Baloo Chettan', cursive; 
+    font-size: 20px; 
+    color: whitesmoke; 
+    text-align: center;
+    }
+
+.img_box {
+    height : 320px;
+    width : 500px;
+    }
+
+/* Video Styles */
+#video {
+    display:grid;
+    grid-template-columns: 560px 560px 560px  ;
+    grid-template-rows: 315px 315px 315px ;
+    grid-gap: 40px; 
+    padding: 40px;   
+    }
+
+.vfontbg {
+    height: 100px;
+    background-color: #26C6DA; 
+    padding: 40px;
+    }
+
+/* Video background */
+.vbg {
+    background:#212121;
+    }
+
+.vfont {
+    font-family: 'Baloo Chettan', cursive; 
+    font-size: 20px; 
+    color: whitesmoke; 
+    text-align: center;
+    }
+
+.frameborder {
+    width:560px; height:315;
+    }
+
+
+@media (max-width: 1280px) {
+    #video {
+        display: grid;
+        grid-template-columns: 560px 560px;
+        grid-template-columns: auto auto ;
+        grid-gap: 20px; 
+        padding: 20px;
+        }
+    }   
+
+@media (max-width: 900px) {
+    #video {
+        display: grid;
+        grid-template-columns:  300px;
+        grid-template-columns: auto ;
+        grid-gap: 20px; 
+        padding: 20px;
+        }
+    }
+
+@media (max-width: 1280px) {
+    #image {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        grid-template-columns: auto auto ;
+        grid-gap: 20px; 
+        padding: 20px;
+        }
+    }
+       
+@media (max-width: 900px) {
+    #image {
+        display: grid;
+        grid-template-columns:  300px;
+        grid-template-columns: auto ;
+        grid-gap: 20px; 
+        padding: 20px;
+        }
+    }
